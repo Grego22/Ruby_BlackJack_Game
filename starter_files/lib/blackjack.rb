@@ -6,5 +6,11 @@ class Card
     def initialize(suit, rank)
     @suit = suit
     @rank = rank
-  end
+    puts Suits
+    puts Ranks
+end
+
+puts (Suits)
+puts rand(Ranks)
+
 end
