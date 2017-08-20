@@ -10,7 +10,12 @@ class Card
     puts Ranks
 end
 
-puts (Suits)
+def value
+  return 10 if @value = "J"
+  return @value
+end
+
+puts rand(Suits)
 puts rand(Ranks)
 
 end
