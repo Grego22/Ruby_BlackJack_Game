@@ -18,5 +18,5 @@ class Deck
     cards.shuffle
   end
 
- p cards
+ deck = Deck.new()
 end
