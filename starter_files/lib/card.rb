@@ -14,5 +14,5 @@ end
 end
 
 
-card = Card.new(:spade, "A")
-puts card.value
+card = Card.new(:clubs, "A")
+p card
